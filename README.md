@@ -69,7 +69,7 @@ npm run levels   # пересобрать набор уровней (неско�
 
 ## Установка на Windows
 
-Готовый установщик `.exe` лежит в **Releases** репозитория — релиз с тегом `prism-puzzle-v…`.
+Готовый установщик — в [последнем релизе](https://github.com/hatiksu/prism-puzzle/releases/latest) (все версии — в [Releases](https://github.com/hatiksu/prism-puzzle/releases)).
 
 1. Скачайте `prism-puzzle-Setup-<версия>.exe` и запустите.
 2. Если Windows покажет «Система Windows защитила ваш компьютер» — **Подробнее → Выполнить в любом случае**
