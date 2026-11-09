@@ -11,5 +11,14 @@
   "code": "https://github.com/hatiksu/prism-puzzle",
   "mockup": "generic",
   "icon": "🔺",
-  "order": 2
+  "order": 2,
+  "en": {
+    "title": "Prism — a light puzzle",
+    "description": "Rotate mirrors and beam splitters, mix coloured rays and light up crystals in the right colour. 24 levels, stars for the fewest moves, hints. Works on phones and offline.",
+    "highlights": [
+      "Levels come from a generator, and a brute-force solver proves each is solvable and counts the minimum moves",
+      "Hints and stars come from the solver: it knows the nearest solution from any position",
+      "Coloured SVG rays mix like real light: red + blue = magenta"
+    ]
+  }
 }
