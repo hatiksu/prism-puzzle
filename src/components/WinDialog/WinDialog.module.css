@@ -1,0 +1,78 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(5, 4, 15, 0.55);
+  backdrop-filter: blur(3px);
+}
+
+.card {
+  width: min(360px, 100%);
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 28px 24px 24px;
+  border-radius: 28px;
+  background: linear-gradient(160deg, rgba(40, 28, 90, 0.95), rgba(14, 10, 32, 0.97));
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  box-shadow: 0 30px 80px -20px rgba(124, 92, 255, 0.6);
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 26px;
+}
+
+.stars {
+  display: flex;
+  gap: 10px;
+  font-size: 48px;
+  line-height: 1;
+  margin: 6px 0;
+}
+
+.on {
+  color: #ffd23f;
+  text-shadow: 0 0 20px rgba(255, 210, 63, 0.7);
+}
+
+.off {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.text {
+  margin: 0 0 12px;
+  color: rgba(230, 226, 255, 0.8);
+}
+
+.actions {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.primary,
+.secondary {
+  min-height: 50px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  border: 0;
+  background: linear-gradient(135deg, #7c5cff, #4f2bff);
+  color: #fff;
+}
+
+.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: #e7e4ff;
+}

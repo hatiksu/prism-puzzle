@@ -1,0 +1,25 @@
+.button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(24, 21, 52, 0.8);
+  color: #e7e4ff;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s, border-color 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  border-color: #a78bfa;
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.93);
+}
+
+.button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
